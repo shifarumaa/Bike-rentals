@@ -1,0 +1,48 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Rentals</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bike Rentals</h1>
+    </header>
+    <main>
+        <section id="bikes-list">
+            <!-- Bike listings will be dynamically populated here -->
+        </section>
+        <section id="rental-form">
+            <h2>Rent a Bike</h2>
+            <input type="text" id="name" placeholder="Your Name">
+            
+            <label for="bikes-list">Select a Bike:</label>
+            <select id="bike-select">
+                <option value="ninja">Ninja</option>
+                <option value="ktm">KTM</option>
+                <option value="bajaj-v">Bajaj V</option>
+                <option value="bullet">Bullet</option>
+                <option value="pulsor">Pulsor</option>
+                <option value="discover">Discover</option>
+                <!-- Bike options will be dynamically populated here -->
+            </select>
+            <label for="rental-option">Rental Option:</label>
+            <select id="rental-option">
+                <option value="day">Day</option>
+                <option value="week">Week</option>
+            </select>
+            <button onclick="rentBike()">Rent</button>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <button onclick="makeCall()">Call</button>
+            <button onclick="sendMessage()">Message</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+/* styles.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #3dcd11;
+    color: #7dc20c;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main styles */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 20px;
+}
+
+/* Button styles */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Input styles */
+input[type="text"],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Title styles */
+h1, h2 {
+    color: #333;
+}
+
+/* Form label styles */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+}
