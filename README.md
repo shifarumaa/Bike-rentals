@@ -42,5 +42,6 @@ git push
 
 5. Open a pull request to the original repository.
 
-"# Bike-rentals" 
-"# Bike-rentals" 
+## License
+
+This project is licensed under the [MIT License](LICENSE).
